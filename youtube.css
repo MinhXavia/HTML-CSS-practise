@@ -1,0 +1,84 @@
+/* Grid */
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+/* video */
+/* .video {   
+    width: 400px;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+} */
+
+    /* thumbnail-row */
+    .thumbnail-row {
+        margin-bottom: 10px;
+    }
+        .thumbnail {
+            width: 100%;
+        }
+        
+    /* below thumbnail */
+        /* channel-picture */
+        .channel-picture {
+            display: inline-block;
+            vertical-align: top;
+        }
+            #profile-picture {
+                width: 50px;
+                border-radius: 100%;
+                vertical-align: middle;
+                background-color: gray;
+            }
+        /* video-info */
+        p {            
+            margin-top: 0;
+            margin-bottom: 0px;
+        }
+        .video-info {
+            display: inline-block;
+            width: 250px;   
+            background-color: gray;
+        }
+            #video-title {
+                width: 100%;
+                font-weight: 500;
+                font-family: Roboto;
+                line-height: 25px;
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
+            #video-author, #video-stas {
+                color: rgb(100, 100, 100);
+                font-size: 14px;
+                font-weight: 300;
+                font-family: Roboto;
+            }
+            #video-author {
+                margin-bottom: 4px;
+            }
+
+/* video-link */
+.video-link, .channel-link {
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* #video-title {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+} */
+
+
+
+
+

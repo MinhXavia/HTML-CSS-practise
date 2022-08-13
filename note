@@ -1,0 +1,35 @@
+.d8 button {            <div class=d8>
+                            <button>
+}
+div .d8 {
+    <div class=d8></div>
+}
+
+
+/*
+transition: background-color 0.15s;
+
+box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);  [right bottom blur]
+
+padding: 20 60 20 20;  [top right bottom left]
+
+vertical-align: middle;
+
+
+
+object-fit: cover/contain;
+        object-position:left;
+
+
+
+grid-template-columns: 100px 100px;     [cot1 cot2]
+
+
+
+
+*/
+
+
+
+
+

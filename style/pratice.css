@@ -1,0 +1,766 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 5000px;
+}
+h {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10 10 10 0;
+}
+/*Lesson1*/
+#amazon {
+    color: rgb(0, 113, 113);
+    text-decoration: underline;
+    transition: color 0.15s;
+}
+#amazon:hover {
+    color:rgb(241, 151, 16);
+}
+
+#Nike {
+    font-size: 23;
+    font-weight: bold;
+}
+#Mon {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+}
+#cart {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius: 20px;
+    width: 110;
+    height: 30;
+    margin: 3 5 7 0;
+    transition: background-color 0.15s;
+}
+#cart:hover {
+    background-color:rgb(235, 196, 4);
+}
+#cart:active {
+    opacity: 0.8;
+}
+
+#buy {
+    background-color: rgb(255, 164, 28);
+    border: none;
+    border-radius: 20px;
+    width: 110;
+    height: 30;
+    margin: 3 5 7 0;
+    transition: background-color 0.15s;
+}
+#buy:hover {
+    background-color:rgb(236, 145, 9);
+}
+#buy:active {
+    opacity: 0.8;
+}
+
+/*Lesson2,3*/
+* {
+    box-sizing: border-box;
+}
+.uber {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 110;
+    height: 38;
+    cursor: pointer;
+    margin: 7 7 7 0;
+    transition: opacity 0.15s;
+}
+.uber:hover {
+    opacity: 0.8;
+}
+
+.amazon {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    width: 190;
+    height: 34;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 7 7 7 0;
+    transition: background-color 0.15s;
+}
+.amazon:hover {
+    background-color: rgb(224, 190, 20);
+}
+
+.github {
+    background-color: rgb(46, 164, 79);
+    border: none;
+    color: white;
+    font-size: 13;
+    width: 77;
+    height: 34;
+    border-radius: 7px;    
+    cursor: pointer;
+    margin: 7 7 7 0;
+    transition: box-shadow 0.15s;
+}
+.github:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap-gs {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    font-size: 12.5px;
+    width: 110;
+    height: 34;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 7 7 7 0;
+    transition: background-color 0.15s;
+}
+.bootstrap-gs:hover {
+    background-color: rgb(104, 66, 160);
+}
+
+.bootstrap-d {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    border-style: solid;
+    border-width: 1;     
+    width: 110;
+    height: 34;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 7 7 7 0;
+    transition: background-color 0.15s, color 0.15s;
+}
+.bootstrap-d:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.linkedIn-a {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    font-weight: bold;
+    width: 210;
+    height: 34;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 7 7 7 0;
+    transition: opacity 0.15s;
+}
+.linkedIn-a:hover {
+    background-color: rgb(9, 89, 168);
+}
+
+.linkedIn-s {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    border-width: 1px;
+    border-style: solid;
+    font-weight: bold;
+    width: 80;
+    height: 34;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 7 7 7 0;
+    transition: background-color 0.15s, border-width 0.15s;
+}
+.linkedIn-s:hover {
+    background-color: rgb(210, 224, 238);
+    border-width: 2;
+}
+
+/*Lesson4*/
+#a  {
+    padding: 4px 4px;            
+}
+#button {
+    margin: 7px 0px;
+    padding: 7px 7px;
+    cursor: pointer;
+}
+
+#stretch {
+    background-color: green;
+    color: white;
+    border: none;
+    margin: 7px 0px;
+    padding: 8px 8px;
+    cursor: pointer;
+    transition: padding 0.15s;
+}
+#stretch:hover{
+    padding: 15px 20px;
+}
+
+#shadow {
+    background-color: green;
+    color: white;
+    border: none;         
+    padding: 8px 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    transition: margin 0.15s box-shadow 0.15s;
+}
+#shadow:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+}
+
+#but {
+    background-color: green;
+    border: none;
+    color: white;
+    margin: 5px 5px 5px 0px;
+    padding: 8px 8px;
+    cursor: pointer;
+}
+#but:hover{
+    padding: 8px 13px 8px 13px;
+}
+
+/*Lesson5*/
+h5#a {
+    font-family: Tahoma; 
+    padding: 0px;
+}
+h5#b,#d {
+    font-family: Arial;
+}
+div.course {
+    font-family: Verdana;
+}
+h5#c {
+    margin-bottom: 2px;
+}
+h5#b {
+    margin-bottom: 5px;           
+}
+#l5b, #btp, #itc{
+    font-size: 12px;
+}
+#l5b {
+    margin-top: 0;
+    color:red;
+    font-style: italic;
+}
+#btp {
+    margin-top: 2px;
+    color: gray;
+}
+#itc {
+    width: 230px;
+}
+.shopping {
+    text-align: center;
+}
+.shopping#lm {
+    font-style: rgb(5, 178, 247);
+}
+#l5 {
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 6px 13px;
+    border: none;
+}
+#lm {
+    color: rgb(64, 171, 221);
+    cursor: pointer;
+}
+/*challenge*/
+.ce {
+    font-family: Arial;
+}
+.macbook {
+    text-align: center;
+    margin: 0px;
+}
+#new {
+    color: orange;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+#title {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 4px;
+}
+#des {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+}
+#price {
+    color: gray;
+    font-size: 12px;
+    margin: 5px;
+}
+#buy-but {
+    background-color: rgb(0, 119, 255);
+    color: white;
+    padding: 4px 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 12px;
+}
+/*challenge*/
+#stock {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 9px;
+}
+#stock span {
+    color: gray;
+    font-weight: lighter;
+    font-size: 10px;
+}
+#alter {
+    color: green;
+    font-size: 9px;
+}
+#period {
+    color: gray;
+    font-size: 9px;
+}
+#period span {
+    color: red;               
+}
+/*challenge*/
+#web {
+    font-weight: bold;
+}
+#web span{
+    color: gray;
+    font-weight: normal;
+}
+#intro {
+    width: 500px;
+}
+#link span {
+    color: rgb(64, 171, 221);
+    cursor: pointer;
+}
+
+/*Lesson6*/
+.l6 {
+    font-family: Montserrat;
+    font-size: 20px;
+    text-align: center;
+}
+#model {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+#order {
+    margin-top: 8px;
+}
+#touchless {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*Lesson7*/
+.l7 div{
+    padding: 5 0 5 0;
+}
+#ttvca {
+    width: 200px;
+    border-radius: 8px;
+}
+#ttvcb {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0px 20px;
+}
+#ttvcc {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+#search {
+    font-size: 25px;
+    padding: 7 7 7 15;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+#searchgg {
+    font-size: 20px;
+    width: 500px;
+    padding: 7 200 7 20;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    margin: 12px 0px;
+}
+
+/*Challenge*/
+.f7 {
+    font-family: Arial;
+    font-size: 15px;
+    color: gray;
+}
+#email {
+    margin-bottom: 5px;
+}
+#blank {
+    border: 1.5px solid rgb(87, 85, 85);
+    border-radius: 4px;
+    padding: 8 200 8 5;
+    margin-bottom: 7px;
+}
+#agree {
+    font-size: 25px;
+    color: white;
+    background-color: rgb(48, 108, 187);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 115px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+/*Challenge*/
+div.g7 {
+    border-radius: 7px;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.35);
+    width: 500px;
+    /* height: 100px; */
+    padding: 10 10;
+    /* padding-bottom: 10px; */
+    text-align: center;
+    vertical-align: middle;
+
+}
+#ga {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 100%;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+#wh {
+    font-size: 18px;
+    padding: 20 70 20 10;
+    border: none;
+    vertical-align: middle;
+}
+#tweet {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(76, 174, 240);
+    border: none;
+    border-radius: 18px;
+    padding: 8px 18px;
+    vertical-align: middle;
+}
+
+/*Lesson8*/
+.l8 div{
+    padding: 5 0 5 0; 
+}
+#a81, #a82{
+    display: block;
+    width: 200px;
+    font-size: 17px;
+    padding: 2 20 2 2;
+    margin: 5 0;
+}
+#thanks {
+    font-size: 20px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#yn {
+    font-size: 17px;
+    padding: 3 8;
+    vertical-align: middle;
+}
+.c8 {
+    text-align: center;
+}
+div#gg {
+    text-align: center;
+    display: block;
+}
+
+/*Challenge*/
+#d81, #d82, #d83 {
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 10 15 10 12;
+    width: 140px;
+    margin: 5 1 5 0;
+    vertical-align: middle;
+    box-sizing: border-box
+}
+#d83 {
+    display: block;
+    width: 284px;
+}
+.d8 button {
+    color: white;
+    background-color: rgb(74, 113, 221);
+    border: none;
+    border-radius: 7px;
+    width: 284px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+/*Challenge*/
+.e8 {
+    font-family: Arial;
+    font-size: 25px;
+}
+.e8 p {
+    margin-bottom: 15px;
+}
+#e81, #e82, #e83, #e84{
+    background-color: rgb(231, 230, 231);
+    border: none;
+    display: block;
+    margin: 5 0;
+    width: 284px;
+    padding: 10 15 10 12;
+}
+#e83, #e84 {
+    display: inline-block;
+    width: auto;
+    margin-top: 15px;cursor: pointer;
+}
+#e83 {
+    color: white;
+    background-color: black;
+}
+
+/*Lesson9*/
+.l9 {
+    font-family: Arial;
+}
+.l9 div {
+    margin: 10 0;
+}
+#a9, #b9 {
+    width: 50px;
+    height: 50px;
+}
+#a9 {
+    background-color: red;
+}
+#b9 {
+    background-color: green;
+    border-radius: 100%;
+}
+#c9 {
+    font-size: 18px;
+    border: 0.5px solid gray;
+    width: 330px;
+    height: 90px;
+    vertical-align: middle;
+}
+#c9 p { 
+    margin: 15;
+}
+#c9 #but1 {
+    margin: 0 0 15 15;
+}    
+#c9 #but1, #c9 #but2 {
+    font-size: 14px;
+}  
+#d9 {
+    background-color: black;
+    width: 430px;
+    padding: 5 10;
+}
+#d9 #p1{
+    color: white;
+    font-size: 30px;
+    margin: 9px;
+    margin-top: 12px;
+
+}
+#d9 #p2{
+    color: gray;
+    font-size: 19px;
+    margin: 9px;
+    margin-bottom: 12px;
+}
+
+/*Challenge*/
+.f9 img, .g9 img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    
+}
+div.f9 , div.g9 {
+    width: 250px; 
+    display: inline-block; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+}
+#name {
+    font-size: 19px;
+    font-weight: bolder;
+    margin-top: 10 ;
+    margin-bottom: 0px;
+    margin-left: 8;
+}
+#mutual {
+    font-size: 16px;
+    color: gray;
+    margin-top: 8px;
+    margin-bottom: 13px;
+    margin-left: 8;
+}
+#add {
+    font-size: 15px;
+    color: white;
+    background-color: rgb(17, 125, 248);
+    border: none;
+    padding: 10 13;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 8;
+    margin-bottom: 9px;
+}
+
+/*Challenge*/
+div.h9 {
+    text-align: center;
+}
+.h9 button {
+    font-size: 14px;
+    padding: 17 20;
+    margin-right: 10px;
+    border: none;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*Lesson10*/
+/* 10a */
+.a10 div{
+    vertical-align: middle;
+    display: inline-block; 
+    padding: 5;  
+}
+.a10 #ga{
+    width: 100px;
+    height: 100;
+}
+.a10 div {
+    font-family: Arial;
+}
+#info {
+    width: 350px;
+}
+#info div p{
+    display: block;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.a10 #name {
+    margin-top: 5;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.a10 #intro, .a10 #popular  {
+    margin-top: 3;
+    color: rgb(96, 96, 96);
+}
+#follow {
+    color: white;
+    background-color: rgb(87, 160, 230);
+    padding: 13 18;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/*Lesson11*/
+/* 11a */
+.l11 div {
+    display: grid;
+    padding-bottom: 10px;
+}
+#blue {
+    background-color: lightblue;
+}
+#pink {
+    background-color: lightpink;
+}
+
+.a11 {
+    grid-template-columns: 200px 75px;
+}
+.b11 {
+    grid-template-columns: 50px 1fr 75px;
+}
+.c11 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.d11 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.d11 div {
+    grid-template-columns: 1fr;
+    padding-bottom: 4px;
+}
+.d11 #f9 {
+    padding: 0;
+    margin: 0;
+}
+#mf {
+    grid-template-columns: 40px 1fr;
+}
+
+#mini {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.d11 .f9 #add {
+    padding: 10 13;
+    width: 130px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

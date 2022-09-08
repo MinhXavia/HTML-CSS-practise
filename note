@@ -1,22 +1,22 @@
-.d8 button {            <div class=d8>
+/* .d8 button {            <div class=d8>
                             <button>
 }
 div .d8 {
     <div class=d8></div>
 }
 
+border: white solid 1px;
 
-/*
 transition: background-color 0.15s;
 
-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);  [right bottom blur]
+box-shadow: inset 0 5px 8px rgba(0, 0, 0, 0.15);  [right bottom blur]
 
 padding: 20 60 20 20;  [top right bottom left]
 
 vertical-align: middle;
 
 
-
+---picture---
 object-fit: cover/contain;
         object-position:left;
 
@@ -24,10 +24,14 @@ object-fit: cover/contain;
 
 grid-template-columns: 100px 100px;     [cot1 cot2]
 
+---flex---
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-shrink: 0; 
 
+ */
 
-
-*/
 
 
 

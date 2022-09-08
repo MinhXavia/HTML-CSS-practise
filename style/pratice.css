@@ -754,11 +754,11 @@ div.h9 {
 }
 
 /*Lesson12*/
-.l12 div {
+ .b12, .c12, .d12 {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
-}
+} 
 /* 12a */
 #px200 {
     background-color: lightblue;
@@ -801,7 +801,7 @@ div.h9 {
     border-style: solid;
     width: 300px;
 }
-.e12 .row {
+.e12 div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -809,19 +809,200 @@ div.h9 {
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 12px;
-    padding-right: 12px;
+    padding-right: 12px; 
 }
 #noti {
     background-color: rgb(56, 124, 234);
     color: white;
-    width: 30px;
-    border-radius: 10px;
-    padding: 0px 8px;
+    border-radius: 20px;
+    padding: 3px 10px;
+    font-size: 14px;
+    font-weight: bold
 }
 
+/* 12f */
+.f12 {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;   
+    background-color: rgb(120, 82, 178);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.f12 #f12-home {
+    cursor: pointer;
+}
+.f12 #f12-search {
+    padding: 10px 0px;
+    padding-left: 20px;
+    margin: 12px 0px;
+    font-size: 12px;
+    width: 400px;
+    border: none;
+    border-radius: 50px; 
+}
+.f12 #f12-button {
+    text-align: right;
+}
+#f12-down {
+    background-color: rgb(120, 82, 178);
+    color: white;
+    border: white solid 1px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* 12g */
+.g12 {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    width: 364px;    
+}
+#g12-pic {
+    width: 60;
+    height: 60;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-left: 10px;
+}
+div.g12-nho {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.g12-tt {
+    width: 210px;
+    font-family: Arial;
+    padding-left: 10px;
+}
+#g12-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#g12-detail, #g12-popular {
+    color: gray;
+    margin-bottom: 5px;
+}
+#g12-follow {
+    color: white;
+    background-color: rgb(53, 132, 241);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Lesson13 */
+.pink {
+    background-color: lightpink;
+}
+.blue {
+    background-color: lightblue;
+}
+.px100 {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.px200 {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item1 {
+    background-color: black;
+    color: white;
+}
+.a13 {
+    margin-bottom: 10px;
+    display: flex;   
+}
+
+.b13 {
+    margin-bottom: 10px;
+    display: flex;   
+}
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.row {
+    flex-direction: column;
+    align-items: flex-start
+}
+/* 13c,d */
+.c13 {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial; 
+    width: 467px;
+    border: gray solid 1px;
+}
+.c13-inbox {
+    color: gray;
+    font-size: 16px;
+    margin-left: 12px;
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+
+.c13-first {
+    display: flex;
+    flex-direction: row;
+    margin-left: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+    #c13-img {
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+        object-fit: cover;
+        margin-right: 7px;
+    }
+    .c13-info {
+        width: 400px;
+        margin-right: 12px;
+    }
+        .c13-na-ti {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between
+        }
+            .c13-name {
+                font-weight: bold;
+                font-size: 18px;
+            }
+            .c13-time {
+                color: gray;
+            }
+        .c13-general {
+            font-weight: bold;
+        }
+        .c13-detail {
+            color: gray;
+        }
 
 
-/* 12e */
+
+
 
 
 

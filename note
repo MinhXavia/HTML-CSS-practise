@@ -9,7 +9,7 @@ border: white solid 1px;
 
 transition: background-color 0.15s;
 
-box-shadow: inset 0 5px 8px rgba(0, 0, 0, 0.15);  [right bottom blur]
+box-shadow: inset 0 0px 8px rgba(0, 0, 0, 0.15);  [right bottom blur]
 
 padding: 20 60 20 20;  [top right bottom left]
 

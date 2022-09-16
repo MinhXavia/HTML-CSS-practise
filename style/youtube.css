@@ -1,3 +1,8 @@
+body {
+    padding-top: 65px;
+    padding-left: 65px;
+}
+
 /* Grid */
 .video-grid {
     display: grid;
@@ -12,8 +17,16 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
 
+        z-index: 100;
+        position: fixed;
+        background-color: white;
+        top: 0;
+        left: 0;
+        right: 0;
+        border-bottom: rgb(208, 207, 207) solid 1px;
+    }
+    
     /* left-section */
     .left-section {
         display: flex;
@@ -95,7 +108,18 @@
     /* thumbnail-row */
     .thumbnail-row {
         margin-bottom: 10px;
+        position: relative;
     }
+        .thumbnail-time {
+            position: absolute;
+            bottom: 10px;
+            right: 8px;
+            font-size: 14px;
+            color: white;
+            background-color: black;
+            padding: 3px;
+            border-radius: 3px;
+        }
         .thumbnail {
             width: 100%;
         }

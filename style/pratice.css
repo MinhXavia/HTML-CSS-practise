@@ -1057,4 +1057,16 @@ div.g12-nho {
             color: rgb(106, 105, 105); 
         }    
 
+/* Lesson14 */
+/* 14a */
+.a14-bottom-right {
+    background-color: black;
+    color: white;
+    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    }
 
+
+/* Lesson15 */

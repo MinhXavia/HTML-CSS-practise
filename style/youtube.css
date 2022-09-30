@@ -104,7 +104,22 @@ body {
             object-fit: cover;
             border-radius: 18px;
         }
+        .notification-icon-container {
+            position: relative;
+        }
+            .notifications-count {
+                font-family: Roboto;
+                background-color: rgb(219, 6, 6);
+                color: white;
+                font-size: 11px;
+                padding: 2px 6px;
+                border-radius: 20px;
 
+                position: absolute;
+                top: -4px;
+                right: -6px;
+
+            }
     /* thumbnail-row */
     .thumbnail-row {
         margin-bottom: 10px;
